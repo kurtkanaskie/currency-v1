@@ -313,6 +313,7 @@
 							<goal>exec</goal>
 						</goals>
 						<configuration>
+							<!-- For windows -->
 							<executable>node</executable>
 							<commandlineArgs>
 								./node_modules/mocha/bin/mocha test/unit
