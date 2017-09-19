@@ -44,7 +44,7 @@
 				<apigee.env>test</apigee.env>
 				<apigee.hosturl>https://api.enterprise.apigee.com</apigee.hosturl>
 				<apigee.apiversion>v1</apigee.apiversion>
-				<apigee.org>${env.APIGEE_ORG}</apigee.org>
+				<apigee.org>kurtkanaskietrainer-trial</apigee.org>
 				<apigee.username>${env.APIGEE_USERNAME}</apigee.username>
 				<apigee.password>${env.APIGEE_PASSWORD}</apigee.password>
 				<!-- update deployed revision, this doesn't seem to work quite right when nothing exists to begin with, errors -->
@@ -57,7 +57,7 @@
 				<apigee.options>override</apigee.options>
 				<apigee.override.delay>5</apigee.override.delay>
 				-->
-				<api.northbound.domain>${env.API_DOMAIN_TEST}</api.northbound.domain>
+				<api.northbound.domain>kurtkanaskietrainer-trial-test.apigee.net</api.northbound.domain>
 				<api.testtag>~@wip,~@mock</api.testtag>
 			</properties>
 		</profile>
@@ -68,13 +68,13 @@
 				<apigee.env>prod</apigee.env>
 				<apigee.hosturl>https://api.enterprise.apigee.com</apigee.hosturl>
 				<apigee.apiversion>v1</apigee.apiversion>
-				<apigee.org>${env.APIGEE_ORG}</apigee.org>
+				<apigee.org>kurtkanaskietrainer-trial</apigee.org>
 				<apigee.username>${env.APIGEE_USERNAME}</apigee.username>
 				<apigee.password>${env.APIGEE_PASSWORD}</apigee.password>
 				<!-- override to create a new revision for each prod change -->
 				<apigee.options>override</apigee.options>
 				<apigee.override.delay>5</apigee.override.delay>
-				<api.northbound.domain>${env.API_DOMAIN_PROD}</api.northbound.domain>
+				<api.northbound.domain>kurtkanaskietrainer-trial-test.apigee.net</api.northbound.domain>
 				<api.testtag>~@wip,~@mock</api.testtag>
 			</properties>
 		</profile>
@@ -86,26 +86,11 @@
 				<apigee.env>dev</apigee.env>
 				<apigee.hosturl>https://api.enterprise.apigee.com</apigee.hosturl>
 				<apigee.apiversion>v1</apigee.apiversion>
-				<apigee.org>wec-nonprod</apigee.org>
+				<apigee.org>caterpillar-nonprod</apigee.org>
 				<apigee.username>${env.APIGEE_USERNAME}</apigee.username>
 				<apigee.password>${env.APIGEE_PASSWORD}</apigee.password>
 				<apigee.options>update</apigee.options>
-				<api.northbound.domain>wec-nonprod-dev.apigee.net</api.northbound.domain>
-				<api.testtag>~@wip</api.testtag>
-			</properties>
-		</profile>
-		<profile>
-			<id>test</id>
-			<properties>
-				<apigee.profile>test</apigee.profile>
-				<apigee.env>test</apigee.env>
-				<apigee.hosturl>https://api.enterprise.apigee.com</apigee.hosturl>
-				<apigee.apiversion>v1</apigee.apiversion>
-				<apigee.org>wec-nonprod</apigee.org>
-				<apigee.username>${env.APIGEE_USERNAME}</apigee.username>
-				<apigee.password>${env.APIGEE_PASSWORD}</apigee.password>
-				<apigee.options>update</apigee.options>
-				<api.northbound.domain>wec-nonprod-test.apigee.net</api.northbound.domain>
+				<api.northbound.domain>caterpillar-nonprod-dev.apigee.net</api.northbound.domain>
 				<api.testtag>~@wip</api.testtag>
 			</properties>
 		</profile>
@@ -116,26 +101,41 @@
 				<apigee.env>qa</apigee.env>
 				<apigee.hosturl>https://api.enterprise.apigee.com</apigee.hosturl>
 				<apigee.apiversion>v1</apigee.apiversion>
-				<apigee.org>wec-nonprod</apigee.org>
+				<apigee.org>caterpillar-nonprod</apigee.org>
 				<apigee.username>${env.APIGEE_USERNAME}</apigee.username>
 				<apigee.password>${env.APIGEE_PASSWORD}</apigee.password>
-				<apigee.options>override</apigee.options>
-				<api.northbound.domain>wec-nonprod-qa.apigee.net</api.northbound.domain>
+				<apigee.options>update</apigee.options>
+				<api.northbound.domain>caterpillar-nonprod-qa.apigee.net</api.northbound.domain>
 				<api.testtag>~@wip</api.testtag>
 			</properties>
 		</profile>
 		<profile>
-			<id>staging</id>
+			<id>stage</id>
+			<properties>
+				<apigee.profile>stage</apigee.profile>
+				<apigee.env>stage</apigee.env>
+				<apigee.hosturl>https://api.enterprise.apigee.com</apigee.hosturl>
+				<apigee.apiversion>v1</apigee.apiversion>
+				<apigee.org>caterpillar-nonprod</apigee.org>
+				<apigee.username>${env.APIGEE_USERNAME}</apigee.username>
+				<apigee.password>${env.APIGEE_PASSWORD}</apigee.password>
+				<apigee.options>override</apigee.options>
+				<api.northbound.domain>caterpillar-nonprod-stage.apigee.net</api.northbound.domain>
+				<api.testtag>~@wip</api.testtag>
+			</properties>
+		</profile>
+		<profile>
+			<id>sandbox</id>
 			<properties>
 				<apigee.profile>staging</apigee.profile>
 				<apigee.env>staging</apigee.env>
 				<apigee.hosturl>https://api.enterprise.apigee.com</apigee.hosturl>
 				<apigee.apiversion>v1</apigee.apiversion>
-				<apigee.org>wec</apigee.org>
+				<apigee.org>caterpillar</apigee.org>
 				<apigee.username>${env.APIGEE_USERNAME}</apigee.username>
 				<apigee.password>${env.APIGEE_PASSWORD}</apigee.password>
 				<apigee.options>update</apigee.options>
-				<api.northbound.domain>wec-staging.apigee.net</api.northbound.domain>
+				<api.northbound.domain>caterpillar-sandbox.apigee.net</api.northbound.domain>
 				<api.testtag>~@wip,~@mock</api.testtag>
 			</properties>
 		</profile>
@@ -146,12 +146,12 @@
 				<apigee.env>prod</apigee.env>
 				<apigee.hosturl>https://api.enterprise.apigee.com</apigee.hosturl>
 				<apigee.apiversion>v1</apigee.apiversion>
-				<apigee.org>wec</apigee.org>
+				<apigee.org>caterpillar</apigee.org>
 				<apigee.username>${env.APIGEE_USERNAME}</apigee.username>
 				<apigee.password>${env.APIGEE_PASSWORD}</apigee.password>
 				<apigee.options>override</apigee.options>
 				<apigee.override.delay>5</apigee.override.delay>
-				<api.northbound.domain>wec-prod.apigee.net</api.northbound.domain>
+				<api.northbound.domain>caterpillar-prod.apigee.net</api.northbound.domain>
 				<api.testtag>~@wip,~@mock</api.testtag>
 			</properties>
 		</profile>
