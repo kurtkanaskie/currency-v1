@@ -313,7 +313,7 @@
 							<goal>exec</goal>
 						</goals>
 						<configuration>
-							<executable>${project.root.dir}/node_modules/.bin/mocha</executable>
+							<executable>./node_modules/mocha/bin/mocha</executable>
 							<commandlineArgs>
 								test/unit
 							</commandlineArgs>
@@ -327,9 +327,9 @@
 							<goal>exec</goal>
 						</goals>
 						<configuration>
-							<executable>./node_modules/.bin/cucumberjs</executable>
+							<executable>./node_modules/cucumber/bin/cucumber.js</executable>
 							<commandlineArgs>
-								target/test/integration/features - -tags ${api.testtag}
+								target/test/integration/features --tags ${api.testtag}
 							</commandlineArgs>
 						</configuration>
 					</execution>
