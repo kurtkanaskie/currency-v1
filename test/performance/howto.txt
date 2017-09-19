@@ -1,0 +1,1 @@
+jmeter -n -t currency.jmx -l log -e -o ./results

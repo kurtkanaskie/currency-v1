@@ -1,0 +1,2 @@
+testcaseid,userstory,testcasedescription,env,servername,path,execute,assertheader,assertcontent,assertcontentnegative
+currency-1-1,currency-1,valid rates,test,kkanaskietraining-test.apigee.net,/currency/v1/rates,Y,HTTP/1.1 200 OK,rates,NON-EXISTENT-WORD

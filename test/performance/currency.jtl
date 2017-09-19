@@ -1,0 +1,2357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="51" it="0" lt="0" ts="1502846208817" s="false" lb="currency-1-1 - valid rates - currency-1 API - test" rc="Non HTTP response code: java.net.UnknownHostException" tn="Thread Group 1-1" dt="text" de="" by="2201" ng="1" na="1" hn="kurtkanaskie-macbookpro.roam.corp.google.com">
+  <assertionResult>
+    <name>Response Header 200 OK Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Found Server Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /rates/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Negative Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseData class="java.lang.String">java.net.UnknownHostException: kkanaskietraining-test.apigee.net: nodename nor servname provided, or not known
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:654)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:413)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254)
+	at java.lang.Thread.run(Thread.java:748)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://kkanaskietraining-test.apigee.net/currency/v1/rates</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ts="1502846208893" s="false" lb="currency-1-1 - valid rates - currency-1 API - test" rc="Non HTTP response code: java.net.UnknownHostException" tn="Thread Group 1-1" dt="text" de="" by="1949" ng="1" na="1" hn="kurtkanaskie-macbookpro.roam.corp.google.com">
+  <assertionResult>
+    <name>Response Header 200 OK Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Found Server Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /rates/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Negative Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseData class="java.lang.String">java.net.UnknownHostException: kkanaskietraining-test.apigee.net
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:654)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:413)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254)
+	at java.lang.Thread.run(Thread.java:748)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://kkanaskietraining-test.apigee.net/currency/v1/rates</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ts="1502846208900" s="false" lb="currency-1-1 - valid rates - currency-1 API - test" rc="Non HTTP response code: java.net.UnknownHostException" tn="Thread Group 1-1" dt="text" de="" by="1949" ng="1" na="1" hn="kurtkanaskie-macbookpro.roam.corp.google.com">
+  <assertionResult>
+    <name>Response Header 200 OK Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Found Server Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /rates/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Negative Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseData class="java.lang.String">java.net.UnknownHostException: kkanaskietraining-test.apigee.net
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:654)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:413)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254)
+	at java.lang.Thread.run(Thread.java:748)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://kkanaskietraining-test.apigee.net/currency/v1/rates</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ts="1502846208907" s="false" lb="currency-1-1 - valid rates - currency-1 API - test" rc="Non HTTP response code: java.net.UnknownHostException" tn="Thread Group 1-1" dt="text" de="" by="1949" ng="1" na="1" hn="kurtkanaskie-macbookpro.roam.corp.google.com">
+  <assertionResult>
+    <name>Response Header 200 OK Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Found Server Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /rates/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Negative Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseData class="java.lang.String">java.net.UnknownHostException: kkanaskietraining-test.apigee.net
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:654)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:413)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254)
+	at java.lang.Thread.run(Thread.java:748)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://kkanaskietraining-test.apigee.net/currency/v1/rates</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ts="1502846208915" s="false" lb="currency-1-1 - valid rates - currency-1 API - test" rc="Non HTTP response code: java.net.UnknownHostException" tn="Thread Group 1-1" dt="text" de="" by="1949" ng="1" na="1" hn="kurtkanaskie-macbookpro.roam.corp.google.com">
+  <assertionResult>
+    <name>Response Header 200 OK Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Found Server Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /rates/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Negative Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseData class="java.lang.String">java.net.UnknownHostException: kkanaskietraining-test.apigee.net
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:654)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:413)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254)
+	at java.lang.Thread.run(Thread.java:748)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://kkanaskietraining-test.apigee.net/currency/v1/rates</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ts="1502846208921" s="false" lb="currency-1-1 - valid rates - currency-1 API - test" rc="Non HTTP response code: java.net.UnknownHostException" tn="Thread Group 1-1" dt="text" de="" by="1949" ng="1" na="1" hn="kurtkanaskie-macbookpro.roam.corp.google.com">
+  <assertionResult>
+    <name>Response Header 200 OK Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Found Server Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /rates/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Negative Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseData class="java.lang.String">java.net.UnknownHostException: kkanaskietraining-test.apigee.net
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:654)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:413)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254)
+	at java.lang.Thread.run(Thread.java:748)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://kkanaskietraining-test.apigee.net/currency/v1/rates</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ts="1502846208928" s="false" lb="currency-1-1 - valid rates - currency-1 API - test" rc="Non HTTP response code: java.net.UnknownHostException" tn="Thread Group 1-1" dt="text" de="" by="1949" ng="1" na="1" hn="kurtkanaskie-macbookpro.roam.corp.google.com">
+  <assertionResult>
+    <name>Response Header 200 OK Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Found Server Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /rates/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Negative Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseData class="java.lang.String">java.net.UnknownHostException: kkanaskietraining-test.apigee.net
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:654)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:413)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254)
+	at java.lang.Thread.run(Thread.java:748)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://kkanaskietraining-test.apigee.net/currency/v1/rates</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ts="1502846208934" s="false" lb="currency-1-1 - valid rates - currency-1 API - test" rc="Non HTTP response code: java.net.UnknownHostException" tn="Thread Group 1-1" dt="text" de="" by="1949" ng="1" na="1" hn="kurtkanaskie-macbookpro.roam.corp.google.com">
+  <assertionResult>
+    <name>Response Header 200 OK Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Found Server Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /rates/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Negative Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseData class="java.lang.String">java.net.UnknownHostException: kkanaskietraining-test.apigee.net
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:654)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:413)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254)
+	at java.lang.Thread.run(Thread.java:748)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://kkanaskietraining-test.apigee.net/currency/v1/rates</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ts="1502846208941" s="false" lb="currency-1-1 - valid rates - currency-1 API - test" rc="Non HTTP response code: java.net.UnknownHostException" tn="Thread Group 1-1" dt="text" de="" by="1949" ng="1" na="1" hn="kurtkanaskie-macbookpro.roam.corp.google.com">
+  <assertionResult>
+    <name>Response Header 200 OK Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Found Server Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /rates/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Negative Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseData class="java.lang.String">java.net.UnknownHostException: kkanaskietraining-test.apigee.net
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:654)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:413)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254)
+	at java.lang.Thread.run(Thread.java:748)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://kkanaskietraining-test.apigee.net/currency/v1/rates</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ts="1502846208947" s="false" lb="currency-1-1 - valid rates - currency-1 API - test" rc="Non HTTP response code: java.net.UnknownHostException" tn="Thread Group 1-1" dt="text" de="" by="1949" ng="1" na="1" hn="kurtkanaskie-macbookpro.roam.corp.google.com">
+  <assertionResult>
+    <name>Response Header 200 OK Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Found Server Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /rates/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Negative Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseData class="java.lang.String">java.net.UnknownHostException: kkanaskietraining-test.apigee.net
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:654)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:413)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254)
+	at java.lang.Thread.run(Thread.java:748)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://kkanaskietraining-test.apigee.net/currency/v1/rates</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ts="1502846209235" s="false" lb="currency-1-1 - valid rates - currency-1 API - test" rc="Non HTTP response code: java.net.UnknownHostException" tn="Thread Group 1-2" dt="text" de="" by="1949" ng="1" na="1" hn="kurtkanaskie-macbookpro.roam.corp.google.com">
+  <assertionResult>
+    <name>Response Header 200 OK Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Found Server Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /rates/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Negative Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseData class="java.lang.String">java.net.UnknownHostException: kkanaskietraining-test.apigee.net
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:654)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:413)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254)
+	at java.lang.Thread.run(Thread.java:748)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://kkanaskietraining-test.apigee.net/currency/v1/rates</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ts="1502846209246" s="false" lb="currency-1-1 - valid rates - currency-1 API - test" rc="Non HTTP response code: java.net.UnknownHostException" tn="Thread Group 1-2" dt="text" de="" by="1949" ng="1" na="1" hn="kurtkanaskie-macbookpro.roam.corp.google.com">
+  <assertionResult>
+    <name>Response Header 200 OK Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Found Server Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /rates/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Negative Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseData class="java.lang.String">java.net.UnknownHostException: kkanaskietraining-test.apigee.net
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:654)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:413)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254)
+	at java.lang.Thread.run(Thread.java:748)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://kkanaskietraining-test.apigee.net/currency/v1/rates</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ts="1502846209253" s="false" lb="currency-1-1 - valid rates - currency-1 API - test" rc="Non HTTP response code: java.net.UnknownHostException" tn="Thread Group 1-2" dt="text" de="" by="1949" ng="1" na="1" hn="kurtkanaskie-macbookpro.roam.corp.google.com">
+  <assertionResult>
+    <name>Response Header 200 OK Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Found Server Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /rates/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Negative Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseData class="java.lang.String">java.net.UnknownHostException: kkanaskietraining-test.apigee.net
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:654)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:413)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254)
+	at java.lang.Thread.run(Thread.java:748)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://kkanaskietraining-test.apigee.net/currency/v1/rates</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ts="1502846209259" s="false" lb="currency-1-1 - valid rates - currency-1 API - test" rc="Non HTTP response code: java.net.UnknownHostException" tn="Thread Group 1-2" dt="text" de="" by="1949" ng="1" na="1" hn="kurtkanaskie-macbookpro.roam.corp.google.com">
+  <assertionResult>
+    <name>Response Header 200 OK Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Found Server Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /rates/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Negative Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseData class="java.lang.String">java.net.UnknownHostException: kkanaskietraining-test.apigee.net
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:654)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:413)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254)
+	at java.lang.Thread.run(Thread.java:748)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://kkanaskietraining-test.apigee.net/currency/v1/rates</java.net.URL>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ts="1502846209264" s="false" lb="currency-1-1 - valid rates - currency-1 API - test" rc="Non HTTP response code: java.net.UnknownHostException" tn="Thread Group 1-2" dt="text" de="" by="1949" ng="1" na="1" hn="kurtkanaskie-macbookpro.roam.corp.google.com">
+  <assertionResult>
+    <name>Response Header 200 OK Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Found Server Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /rates/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Negative Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseData class="java.lang.String">java.net.UnknownHostException: kkanaskietraining-test.apigee.net
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:654)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:413)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254)
+	at java.lang.Thread.run(Thread.java:748)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://kkanaskietraining-test.apigee.net/currency/v1/rates</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ts="1502846209270" s="false" lb="currency-1-1 - valid rates - currency-1 API - test" rc="Non HTTP response code: java.net.UnknownHostException" tn="Thread Group 1-2" dt="text" de="" by="1949" ng="1" na="1" hn="kurtkanaskie-macbookpro.roam.corp.google.com">
+  <assertionResult>
+    <name>Response Header 200 OK Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Found Server Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /rates/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Negative Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseData class="java.lang.String">java.net.UnknownHostException: kkanaskietraining-test.apigee.net
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:654)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:413)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254)
+	at java.lang.Thread.run(Thread.java:748)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://kkanaskietraining-test.apigee.net/currency/v1/rates</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ts="1502846209275" s="false" lb="currency-1-1 - valid rates - currency-1 API - test" rc="Non HTTP response code: java.net.UnknownHostException" tn="Thread Group 1-2" dt="text" de="" by="1949" ng="1" na="1" hn="kurtkanaskie-macbookpro.roam.corp.google.com">
+  <assertionResult>
+    <name>Response Header 200 OK Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Found Server Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /rates/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Negative Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseData class="java.lang.String">java.net.UnknownHostException: kkanaskietraining-test.apigee.net
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:654)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:413)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254)
+	at java.lang.Thread.run(Thread.java:748)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://kkanaskietraining-test.apigee.net/currency/v1/rates</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ts="1502846209280" s="false" lb="currency-1-1 - valid rates - currency-1 API - test" rc="Non HTTP response code: java.net.UnknownHostException" tn="Thread Group 1-2" dt="text" de="" by="1949" ng="1" na="1" hn="kurtkanaskie-macbookpro.roam.corp.google.com">
+  <assertionResult>
+    <name>Response Header 200 OK Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Found Server Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /rates/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Negative Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseData class="java.lang.String">java.net.UnknownHostException: kkanaskietraining-test.apigee.net
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:654)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:413)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254)
+	at java.lang.Thread.run(Thread.java:748)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://kkanaskietraining-test.apigee.net/currency/v1/rates</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ts="1502846209285" s="false" lb="currency-1-1 - valid rates - currency-1 API - test" rc="Non HTTP response code: java.net.UnknownHostException" tn="Thread Group 1-2" dt="text" de="" by="1949" ng="1" na="1" hn="kurtkanaskie-macbookpro.roam.corp.google.com">
+  <assertionResult>
+    <name>Response Header 200 OK Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Found Server Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /rates/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Negative Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseData class="java.lang.String">java.net.UnknownHostException: kkanaskietraining-test.apigee.net
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:654)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:413)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254)
+	at java.lang.Thread.run(Thread.java:748)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://kkanaskietraining-test.apigee.net/currency/v1/rates</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ts="1502846209290" s="false" lb="currency-1-1 - valid rates - currency-1 API - test" rc="Non HTTP response code: java.net.UnknownHostException" tn="Thread Group 1-2" dt="text" de="" by="1949" ng="1" na="1" hn="kurtkanaskie-macbookpro.roam.corp.google.com">
+  <assertionResult>
+    <name>Response Header 200 OK Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Found Server Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /rates/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Negative Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseData class="java.lang.String">java.net.UnknownHostException: kkanaskietraining-test.apigee.net
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:654)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:413)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254)
+	at java.lang.Thread.run(Thread.java:748)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://kkanaskietraining-test.apigee.net/currency/v1/rates</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ts="1502846209830" s="false" lb="currency-1-1 - valid rates - currency-1 API - test" rc="Non HTTP response code: java.net.UnknownHostException" tn="Thread Group 1-3" dt="text" de="" by="1949" ng="1" na="1" hn="kurtkanaskie-macbookpro.roam.corp.google.com">
+  <assertionResult>
+    <name>Response Header 200 OK Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Found Server Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /rates/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Negative Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseData class="java.lang.String">java.net.UnknownHostException: kkanaskietraining-test.apigee.net
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:654)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:413)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254)
+	at java.lang.Thread.run(Thread.java:748)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://kkanaskietraining-test.apigee.net/currency/v1/rates</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ts="1502846209834" s="false" lb="currency-1-1 - valid rates - currency-1 API - test" rc="Non HTTP response code: java.net.UnknownHostException" tn="Thread Group 1-3" dt="text" de="" by="1949" ng="1" na="1" hn="kurtkanaskie-macbookpro.roam.corp.google.com">
+  <assertionResult>
+    <name>Response Header 200 OK Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Found Server Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /rates/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Negative Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseData class="java.lang.String">java.net.UnknownHostException: kkanaskietraining-test.apigee.net
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:654)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:413)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254)
+	at java.lang.Thread.run(Thread.java:748)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://kkanaskietraining-test.apigee.net/currency/v1/rates</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ts="1502846209838" s="false" lb="currency-1-1 - valid rates - currency-1 API - test" rc="Non HTTP response code: java.net.UnknownHostException" tn="Thread Group 1-3" dt="text" de="" by="1949" ng="1" na="1" hn="kurtkanaskie-macbookpro.roam.corp.google.com">
+  <assertionResult>
+    <name>Response Header 200 OK Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Found Server Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /rates/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Negative Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseData class="java.lang.String">java.net.UnknownHostException: kkanaskietraining-test.apigee.net
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:654)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:413)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254)
+	at java.lang.Thread.run(Thread.java:748)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://kkanaskietraining-test.apigee.net/currency/v1/rates</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ts="1502846209842" s="false" lb="currency-1-1 - valid rates - currency-1 API - test" rc="Non HTTP response code: java.net.UnknownHostException" tn="Thread Group 1-3" dt="text" de="" by="1949" ng="1" na="1" hn="kurtkanaskie-macbookpro.roam.corp.google.com">
+  <assertionResult>
+    <name>Response Header 200 OK Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Found Server Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /rates/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Negative Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseData class="java.lang.String">java.net.UnknownHostException: kkanaskietraining-test.apigee.net
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:654)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:413)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254)
+	at java.lang.Thread.run(Thread.java:748)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://kkanaskietraining-test.apigee.net/currency/v1/rates</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ts="1502846209847" s="false" lb="currency-1-1 - valid rates - currency-1 API - test" rc="Non HTTP response code: java.net.UnknownHostException" tn="Thread Group 1-3" dt="text" de="" by="1949" ng="1" na="1" hn="kurtkanaskie-macbookpro.roam.corp.google.com">
+  <assertionResult>
+    <name>Response Header 200 OK Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Found Server Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /rates/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Negative Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseData class="java.lang.String">java.net.UnknownHostException: kkanaskietraining-test.apigee.net
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:654)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:413)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254)
+	at java.lang.Thread.run(Thread.java:748)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://kkanaskietraining-test.apigee.net/currency/v1/rates</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ts="1502846209851" s="false" lb="currency-1-1 - valid rates - currency-1 API - test" rc="Non HTTP response code: java.net.UnknownHostException" tn="Thread Group 1-3" dt="text" de="" by="1949" ng="1" na="1" hn="kurtkanaskie-macbookpro.roam.corp.google.com">
+  <assertionResult>
+    <name>Response Header 200 OK Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Found Server Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /rates/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Negative Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseData class="java.lang.String">java.net.UnknownHostException: kkanaskietraining-test.apigee.net
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:654)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:413)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254)
+	at java.lang.Thread.run(Thread.java:748)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://kkanaskietraining-test.apigee.net/currency/v1/rates</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ts="1502846209856" s="false" lb="currency-1-1 - valid rates - currency-1 API - test" rc="Non HTTP response code: java.net.UnknownHostException" tn="Thread Group 1-3" dt="text" de="" by="1949" ng="1" na="1" hn="kurtkanaskie-macbookpro.roam.corp.google.com">
+  <assertionResult>
+    <name>Response Header 200 OK Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Found Server Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /rates/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Negative Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseData class="java.lang.String">java.net.UnknownHostException: kkanaskietraining-test.apigee.net
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:654)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:413)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254)
+	at java.lang.Thread.run(Thread.java:748)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://kkanaskietraining-test.apigee.net/currency/v1/rates</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ts="1502846209860" s="false" lb="currency-1-1 - valid rates - currency-1 API - test" rc="Non HTTP response code: java.net.UnknownHostException" tn="Thread Group 1-3" dt="text" de="" by="1949" ng="1" na="1" hn="kurtkanaskie-macbookpro.roam.corp.google.com">
+  <assertionResult>
+    <name>Response Header 200 OK Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Found Server Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /rates/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Negative Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseData class="java.lang.String">java.net.UnknownHostException: kkanaskietraining-test.apigee.net
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:654)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:413)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254)
+	at java.lang.Thread.run(Thread.java:748)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://kkanaskietraining-test.apigee.net/currency/v1/rates</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ts="1502846209864" s="false" lb="currency-1-1 - valid rates - currency-1 API - test" rc="Non HTTP response code: java.net.UnknownHostException" tn="Thread Group 1-3" dt="text" de="" by="1949" ng="1" na="1" hn="kurtkanaskie-macbookpro.roam.corp.google.com">
+  <assertionResult>
+    <name>Response Header 200 OK Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Found Server Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /rates/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Negative Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseData class="java.lang.String">java.net.UnknownHostException: kkanaskietraining-test.apigee.net
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:654)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:413)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254)
+	at java.lang.Thread.run(Thread.java:748)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://kkanaskietraining-test.apigee.net/currency/v1/rates</java.net.URL>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ts="1502846209867" s="false" lb="currency-1-1 - valid rates - currency-1 API - test" rc="Non HTTP response code: java.net.UnknownHostException" tn="Thread Group 1-3" dt="text" de="" by="1949" ng="1" na="1" hn="kurtkanaskie-macbookpro.roam.corp.google.com">
+  <assertionResult>
+    <name>Response Header 200 OK Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Found Server Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /rates/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Negative Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseData class="java.lang.String">java.net.UnknownHostException: kkanaskietraining-test.apigee.net
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:654)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:413)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254)
+	at java.lang.Thread.run(Thread.java:748)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://kkanaskietraining-test.apigee.net/currency/v1/rates</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ts="1502846210429" s="false" lb="currency-1-1 - valid rates - currency-1 API - test" rc="Non HTTP response code: java.net.UnknownHostException" tn="Thread Group 1-4" dt="text" de="" by="1949" ng="1" na="1" hn="kurtkanaskie-macbookpro.roam.corp.google.com">
+  <assertionResult>
+    <name>Response Header 200 OK Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Found Server Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /rates/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Negative Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseData class="java.lang.String">java.net.UnknownHostException: kkanaskietraining-test.apigee.net
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:654)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:413)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254)
+	at java.lang.Thread.run(Thread.java:748)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://kkanaskietraining-test.apigee.net/currency/v1/rates</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ts="1502846210433" s="false" lb="currency-1-1 - valid rates - currency-1 API - test" rc="Non HTTP response code: java.net.UnknownHostException" tn="Thread Group 1-4" dt="text" de="" by="1949" ng="1" na="1" hn="kurtkanaskie-macbookpro.roam.corp.google.com">
+  <assertionResult>
+    <name>Response Header 200 OK Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Found Server Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /rates/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Negative Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseData class="java.lang.String">java.net.UnknownHostException: kkanaskietraining-test.apigee.net
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:654)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:413)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254)
+	at java.lang.Thread.run(Thread.java:748)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://kkanaskietraining-test.apigee.net/currency/v1/rates</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ts="1502846210437" s="false" lb="currency-1-1 - valid rates - currency-1 API - test" rc="Non HTTP response code: java.net.UnknownHostException" tn="Thread Group 1-4" dt="text" de="" by="1949" ng="1" na="1" hn="kurtkanaskie-macbookpro.roam.corp.google.com">
+  <assertionResult>
+    <name>Response Header 200 OK Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Found Server Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /rates/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Negative Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseData class="java.lang.String">java.net.UnknownHostException: kkanaskietraining-test.apigee.net
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:654)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:413)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254)
+	at java.lang.Thread.run(Thread.java:748)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://kkanaskietraining-test.apigee.net/currency/v1/rates</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ts="1502846210441" s="false" lb="currency-1-1 - valid rates - currency-1 API - test" rc="Non HTTP response code: java.net.UnknownHostException" tn="Thread Group 1-4" dt="text" de="" by="1949" ng="1" na="1" hn="kurtkanaskie-macbookpro.roam.corp.google.com">
+  <assertionResult>
+    <name>Response Header 200 OK Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Found Server Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /rates/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Negative Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseData class="java.lang.String">java.net.UnknownHostException: kkanaskietraining-test.apigee.net
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:654)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:413)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254)
+	at java.lang.Thread.run(Thread.java:748)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://kkanaskietraining-test.apigee.net/currency/v1/rates</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ts="1502846210445" s="false" lb="currency-1-1 - valid rates - currency-1 API - test" rc="Non HTTP response code: java.net.UnknownHostException" tn="Thread Group 1-4" dt="text" de="" by="1949" ng="1" na="1" hn="kurtkanaskie-macbookpro.roam.corp.google.com">
+  <assertionResult>
+    <name>Response Header 200 OK Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Found Server Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /rates/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Negative Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseData class="java.lang.String">java.net.UnknownHostException: kkanaskietraining-test.apigee.net
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:654)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:413)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254)
+	at java.lang.Thread.run(Thread.java:748)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://kkanaskietraining-test.apigee.net/currency/v1/rates</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ts="1502846210449" s="false" lb="currency-1-1 - valid rates - currency-1 API - test" rc="Non HTTP response code: java.net.UnknownHostException" tn="Thread Group 1-4" dt="text" de="" by="1949" ng="1" na="1" hn="kurtkanaskie-macbookpro.roam.corp.google.com">
+  <assertionResult>
+    <name>Response Header 200 OK Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Found Server Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /rates/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Negative Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseData class="java.lang.String">java.net.UnknownHostException: kkanaskietraining-test.apigee.net
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:654)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:413)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254)
+	at java.lang.Thread.run(Thread.java:748)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://kkanaskietraining-test.apigee.net/currency/v1/rates</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ts="1502846210453" s="false" lb="currency-1-1 - valid rates - currency-1 API - test" rc="Non HTTP response code: java.net.UnknownHostException" tn="Thread Group 1-4" dt="text" de="" by="1949" ng="1" na="1" hn="kurtkanaskie-macbookpro.roam.corp.google.com">
+  <assertionResult>
+    <name>Response Header 200 OK Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Found Server Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /rates/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Negative Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseData class="java.lang.String">java.net.UnknownHostException: kkanaskietraining-test.apigee.net
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:654)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:413)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254)
+	at java.lang.Thread.run(Thread.java:748)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://kkanaskietraining-test.apigee.net/currency/v1/rates</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ts="1502846210457" s="false" lb="currency-1-1 - valid rates - currency-1 API - test" rc="Non HTTP response code: java.net.UnknownHostException" tn="Thread Group 1-4" dt="text" de="" by="1949" ng="1" na="1" hn="kurtkanaskie-macbookpro.roam.corp.google.com">
+  <assertionResult>
+    <name>Response Header 200 OK Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Found Server Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /rates/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Negative Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseData class="java.lang.String">java.net.UnknownHostException: kkanaskietraining-test.apigee.net
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:654)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:413)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254)
+	at java.lang.Thread.run(Thread.java:748)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://kkanaskietraining-test.apigee.net/currency/v1/rates</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ts="1502846210461" s="false" lb="currency-1-1 - valid rates - currency-1 API - test" rc="Non HTTP response code: java.net.UnknownHostException" tn="Thread Group 1-4" dt="text" de="" by="1949" ng="1" na="1" hn="kurtkanaskie-macbookpro.roam.corp.google.com">
+  <assertionResult>
+    <name>Response Header 200 OK Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Found Server Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /rates/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Negative Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseData class="java.lang.String">java.net.UnknownHostException: kkanaskietraining-test.apigee.net
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:654)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:413)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254)
+	at java.lang.Thread.run(Thread.java:748)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://kkanaskietraining-test.apigee.net/currency/v1/rates</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ts="1502846210464" s="false" lb="currency-1-1 - valid rates - currency-1 API - test" rc="Non HTTP response code: java.net.UnknownHostException" tn="Thread Group 1-4" dt="text" de="" by="1949" ng="1" na="1" hn="kurtkanaskie-macbookpro.roam.corp.google.com">
+  <assertionResult>
+    <name>Response Header 200 OK Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Found Server Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /rates/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Negative Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseData class="java.lang.String">java.net.UnknownHostException: kkanaskietraining-test.apigee.net
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:654)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:413)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254)
+	at java.lang.Thread.run(Thread.java:748)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://kkanaskietraining-test.apigee.net/currency/v1/rates</java.net.URL>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ts="1502846211027" s="false" lb="currency-1-1 - valid rates - currency-1 API - test" rc="Non HTTP response code: java.net.UnknownHostException" tn="Thread Group 1-5" dt="text" de="" by="1949" ng="1" na="1" hn="kurtkanaskie-macbookpro.roam.corp.google.com">
+  <assertionResult>
+    <name>Response Header 200 OK Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Found Server Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /rates/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Negative Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseData class="java.lang.String">java.net.UnknownHostException: kkanaskietraining-test.apigee.net
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:654)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:413)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254)
+	at java.lang.Thread.run(Thread.java:748)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://kkanaskietraining-test.apigee.net/currency/v1/rates</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ts="1502846211031" s="false" lb="currency-1-1 - valid rates - currency-1 API - test" rc="Non HTTP response code: java.net.UnknownHostException" tn="Thread Group 1-5" dt="text" de="" by="1949" ng="1" na="1" hn="kurtkanaskie-macbookpro.roam.corp.google.com">
+  <assertionResult>
+    <name>Response Header 200 OK Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Found Server Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /rates/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Negative Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseData class="java.lang.String">java.net.UnknownHostException: kkanaskietraining-test.apigee.net
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:654)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:413)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254)
+	at java.lang.Thread.run(Thread.java:748)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://kkanaskietraining-test.apigee.net/currency/v1/rates</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ts="1502846211034" s="false" lb="currency-1-1 - valid rates - currency-1 API - test" rc="Non HTTP response code: java.net.UnknownHostException" tn="Thread Group 1-5" dt="text" de="" by="1949" ng="1" na="1" hn="kurtkanaskie-macbookpro.roam.corp.google.com">
+  <assertionResult>
+    <name>Response Header 200 OK Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Found Server Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /rates/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Negative Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseData class="java.lang.String">java.net.UnknownHostException: kkanaskietraining-test.apigee.net
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:654)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:413)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254)
+	at java.lang.Thread.run(Thread.java:748)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://kkanaskietraining-test.apigee.net/currency/v1/rates</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ts="1502846211038" s="false" lb="currency-1-1 - valid rates - currency-1 API - test" rc="Non HTTP response code: java.net.UnknownHostException" tn="Thread Group 1-5" dt="text" de="" by="1949" ng="1" na="1" hn="kurtkanaskie-macbookpro.roam.corp.google.com">
+  <assertionResult>
+    <name>Response Header 200 OK Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Found Server Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /rates/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Negative Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseData class="java.lang.String">java.net.UnknownHostException: kkanaskietraining-test.apigee.net
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:654)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:413)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254)
+	at java.lang.Thread.run(Thread.java:748)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://kkanaskietraining-test.apigee.net/currency/v1/rates</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ts="1502846211042" s="false" lb="currency-1-1 - valid rates - currency-1 API - test" rc="Non HTTP response code: java.net.UnknownHostException" tn="Thread Group 1-5" dt="text" de="" by="1949" ng="1" na="1" hn="kurtkanaskie-macbookpro.roam.corp.google.com">
+  <assertionResult>
+    <name>Response Header 200 OK Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Found Server Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /rates/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Negative Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseData class="java.lang.String">java.net.UnknownHostException: kkanaskietraining-test.apigee.net
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:654)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:413)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254)
+	at java.lang.Thread.run(Thread.java:748)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://kkanaskietraining-test.apigee.net/currency/v1/rates</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ts="1502846211046" s="false" lb="currency-1-1 - valid rates - currency-1 API - test" rc="Non HTTP response code: java.net.UnknownHostException" tn="Thread Group 1-5" dt="text" de="" by="1949" ng="1" na="1" hn="kurtkanaskie-macbookpro.roam.corp.google.com">
+  <assertionResult>
+    <name>Response Header 200 OK Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Found Server Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /rates/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Negative Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseData class="java.lang.String">java.net.UnknownHostException: kkanaskietraining-test.apigee.net
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:654)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:413)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254)
+	at java.lang.Thread.run(Thread.java:748)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://kkanaskietraining-test.apigee.net/currency/v1/rates</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ts="1502846211049" s="false" lb="currency-1-1 - valid rates - currency-1 API - test" rc="Non HTTP response code: java.net.UnknownHostException" tn="Thread Group 1-5" dt="text" de="" by="1949" ng="1" na="1" hn="kurtkanaskie-macbookpro.roam.corp.google.com">
+  <assertionResult>
+    <name>Response Header 200 OK Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Found Server Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /rates/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Negative Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseData class="java.lang.String">java.net.UnknownHostException: kkanaskietraining-test.apigee.net
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:654)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:413)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254)
+	at java.lang.Thread.run(Thread.java:748)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://kkanaskietraining-test.apigee.net/currency/v1/rates</java.net.URL>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ts="1502846211052" s="false" lb="currency-1-1 - valid rates - currency-1 API - test" rc="Non HTTP response code: java.net.UnknownHostException" tn="Thread Group 1-5" dt="text" de="" by="1949" ng="1" na="1" hn="kurtkanaskie-macbookpro.roam.corp.google.com">
+  <assertionResult>
+    <name>Response Header 200 OK Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Found Server Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /rates/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Negative Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseData class="java.lang.String">java.net.UnknownHostException: kkanaskietraining-test.apigee.net
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:654)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:413)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254)
+	at java.lang.Thread.run(Thread.java:748)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://kkanaskietraining-test.apigee.net/currency/v1/rates</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ts="1502846211056" s="false" lb="currency-1-1 - valid rates - currency-1 API - test" rc="Non HTTP response code: java.net.UnknownHostException" tn="Thread Group 1-5" dt="text" de="" by="1949" ng="1" na="1" hn="kurtkanaskie-macbookpro.roam.corp.google.com">
+  <assertionResult>
+    <name>Response Header 200 OK Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Found Server Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /rates/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Negative Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseData class="java.lang.String">java.net.UnknownHostException: kkanaskietraining-test.apigee.net
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:654)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:413)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254)
+	at java.lang.Thread.run(Thread.java:748)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://kkanaskietraining-test.apigee.net/currency/v1/rates</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ts="1502846211059" s="false" lb="currency-1-1 - valid rates - currency-1 API - test" rc="Non HTTP response code: java.net.UnknownHostException" tn="Thread Group 1-5" dt="text" de="" by="1949" ng="1" na="1" hn="kurtkanaskie-macbookpro.roam.corp.google.com">
+  <assertionResult>
+    <name>Response Header 200 OK Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Found Server Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /rates/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Negative Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseData class="java.lang.String">java.net.UnknownHostException: kkanaskietraining-test.apigee.net
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:654)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:413)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254)
+	at java.lang.Thread.run(Thread.java:748)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://kkanaskietraining-test.apigee.net/currency/v1/rates</java.net.URL>
+</httpSample>
+
+</testResults>

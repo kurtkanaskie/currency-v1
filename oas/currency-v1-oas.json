@@ -1,0 +1,69 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "0.0.1",
+    "title": "Currency API for Apigee CI"
+  },
+  "host": "kkanaskietraining-test.apigee.net",
+  "basePath": "/currency/v1",
+  "schemes": [
+    "https"
+  ],
+  "paths": {
+    "/rates": {
+      "get": {
+        "description": "Returns exchange rate for a base currency and date",
+        "operationId": "getExchangeRates",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "base",
+            "type": "string",
+            "description": "Base currency to use for rate calculation.\nDefault value is \"EUR\".\n",
+            "required": false
+          },
+          {
+            "in": "query",
+            "name": "date",
+            "type": "string",
+            "description": "Exchange rate date in YYYY-MM-DD format.\nDefault is \"latest\" which means:\n* Rates for friday if date is weekend\n* Rates for yesterday if current time is before 15:00 CET\n* Otherwise current rates\n"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "schema": {
+              "$ref": "#/definitions/ratesResponse"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "ratesResponse": {
+      "type": "object",
+      "properties": {
+        "base": {
+          "type": "string"
+        },
+        "date": {
+          "type": "string"
+        },
+        "rates": {
+          "type": "object",
+          "items": {
+            "$ref": "#/definitions/rates"
+          }
+        }
+      }
+    },
+    "rates": {
+      "type": "object",
+      "description": "Object with currencies as property name and float rate as property value"
+    }
+  }
+}
